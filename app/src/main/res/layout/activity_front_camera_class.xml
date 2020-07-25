@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextureView
+        android:id="@+id/frontTextureViewID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/frontCaptureButtonID"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="14dp"
+        android:background="@android:drawable/ic_menu_camera" />
+
+    <Button
+        android:id="@+id/frontRotateBtnID"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/ic_menu_rotate" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/frontrecBtn"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_alignBaseline="@+id/frontCaptureButtonID"-->
+<!--        android:layout_alignLeft="@+id/frontCaptureButtonID"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginLeft="-178dp"-->
+<!--        android:layout_marginTop="679dp"-->
+<!--        android:text="Go to Video Mode"-->
+<!--        android:textColor="#228B22"-->
+<!--        android:textStyle="italic" />-->
+
+</RelativeLayout>
